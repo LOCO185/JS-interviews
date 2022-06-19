@@ -63,3 +63,15 @@ rerenders the DOM with the state change.
 
 Answer:
 Only in applications that need to share the global state.
+
+## What is a container component?
+
+Answer:
+A container component is a popular way to seperate the JSX from the logic
+of a component.
+
+## What is a view component?
+
+Answer:
+The view component is the dumb part of a component where you simply put
+the passed in props into JSX.
