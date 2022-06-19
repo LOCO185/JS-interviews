@@ -44,3 +44,22 @@ if I am storing a state or using a life cycle event.
 
 Answer:
 React listens for DOM updates and rerenders the DOM tree on every change.
+
+## What is Redux?
+
+Answer:
+Redux is a popular tool for storing state in React.
+it is built on the pub/sub pattern or flux and the idea is that you store
+your state in a big object and use actions to change that state.
+
+## Explain how Redux works in your own terms?
+
+Answer:
+You declare a reducer that takes in an action and a state,
+when you dispatch an action the state gets updated and React
+rerenders the DOM with the state change.
+
+## When do you use Redux?
+
+Answer:
+Only in applications that need to share the global state.
