@@ -14,9 +14,6 @@
 // console.log(myArray2);
 
 // ##########################
-//
-
-// ##########################
 
 // use a while loop to iterate on the array.
 // as long as the next index is diff from the previous index the iteration continues otherwise ,
