@@ -40,6 +40,7 @@
 // console.log(func(array));
 
 // ##########################
+
 // ** Pini **
 // Given an array of integers, find the minimum sum which is obtained from summing
 // each two integers product.
@@ -67,3 +68,5 @@ const myFunc = (array) => {
   return result;
 };
 console.log(myFunc(array));
+
+// ##########################
