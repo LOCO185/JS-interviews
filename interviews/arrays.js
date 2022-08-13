@@ -40,3 +40,17 @@
 // console.log(func(array));
 
 // ##########################
+// ** Pini **
+// Given an array of integers, find the minimum sum which is obtained from summing
+// each two integers product.
+// Notes :
+// Array/List will contain positives only.
+// Array/List will always has even size.
+// Input >> Output Examples.
+// 1- minSum([5,4,2,3]) ==> return (22)
+// Explanation :
+// The minimum sum obtained from summing each two integers product, 5*2 + 3*4 = 22.
+
+// 2- minSum([12,6,10,26,3,24]) ==> return (342).
+// Eplanation :
+// 26*3 + 24*6 + 12*10 = 342.
