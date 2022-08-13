@@ -22,21 +22,21 @@
 // let array = [t,f,t,f,t,t] "5"
 // let array = [ t,f,t,f,t,f] "-1"
 
-let array = [true, false, true, false, true, false];
+// let array = [true, false, true, false, true, false];
 
-function func(array) {
-    let result;
-    let i = 0;
-  while (i < array.length) {
-    if (array[i] === array[i + 1]) {
-       return result = i + 1;
-    } else {
-      result = -1;
-    }
-    i++;
-  }
-  return result;
-}
-console.log(func(array));
+// function func(array) {
+//     let result;
+//     let i = 0;
+//   while (i < array.length) {
+//     if (array[i] === array[i + 1]) {
+//        return result = i + 1;
+//     } else {
+//       result = -1;
+//     }
+//     i++;
+//   }
+//   return result;
+// }
+// console.log(func(array));
 
 // ##########################
