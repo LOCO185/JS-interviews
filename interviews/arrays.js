@@ -38,3 +38,5 @@ function func(array) {
   return result;
 }
 console.log(func(array));
+
+// ##########################
