@@ -56,17 +56,17 @@
 // Eplanation :
 // 26*3 + 24*6 + 12*10 = 342.
 
-// const array = [5, 4, 2, 3];
+const array = [5, 4, 2, 3];
 
-// const myFunc = (array) => {
-//   const arr = array.sort();
-//   let result = 0;
-//   for (let i = 0; i < arr.length / 2; i++) {
-//     console.log(arr[arr.length - 1 - i]);
-//     result += arr[i] * arr[arr.length - 1 - i];
-//   }
-//   return result;
-// };
-// console.log(myFunc(array));
+const myFunc = (array) => {
+  const arr = array.sort();
+  let result = 0;
+  for (let i = 0; i < arr.length / 2; i++) {
+    console.log(arr[arr.length - 1 - i]);
+    result += arr[i] * arr[arr.length - 1 - i];
+  }
+  return result;
+};
+console.log(myFunc(array));
 
 // ##########################
