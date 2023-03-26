@@ -1,10 +1,10 @@
 // Add variables to the start and end of an array.
-const myArray1 = ['a', 'b', 'c', 'd'];
+// const myArray1 = ['a', 'b', 'c', 'd'];
 
-myArray1.push("end");
-myArray1.unshift("start");
+// myArray1.push("end");
+// myArray1.unshift("start");
 
-console.log(myArray1);
+// console.log(myArray1);
 
 // // second soloution
 // let myArray2 = ['a', 'b', 'c', 'd'];
@@ -56,17 +56,17 @@ console.log(myArray1);
 // Eplanation :
 // 26*3 + 24*6 + 12*10 = 342.
 
-const array = [5, 4, 2, 3];
+// const array = [5, 4, 2, 3];
 
-const myFunc = (array) => {
-  const arr = array.sort();
-  let result = 0;
-  for (let i = 0; i < arr.length / 2; i++) {
-    console.log(arr[arr.length - 1 - i]);
-    result += arr[i] * arr[arr.length - 1 - i];
-  }
-  return result;
-};
-console.log(myFunc(array));
+// const myFunc = (array) => {
+//   const arr = array.sort();
+//   let result = 0;
+//   for (let i = 0; i < arr.length / 2; i++) {
+//     console.log(arr[arr.length - 1 - i]);
+//     result += arr[i] * arr[arr.length - 1 - i];
+//   }
+//   return result;
+// };
+// console.log(myFunc(array));
 
 // ##########################
